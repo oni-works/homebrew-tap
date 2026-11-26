@@ -1,25 +1,25 @@
 class Hikae < Formula
   desc "A terminal-first, Vim-native Markdown knowledge workspace"
   homepage "https://github.com/oni-works/hikae-releases"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.0/hikae-aarch64-apple-darwin.tar.xz"
-      sha256 "d2884d0d9ba3b706107ea3e80ef72182cdcc7d6ae8ac4e6fca204d9af6f56009"
+      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.1/hikae-aarch64-apple-darwin.tar.xz"
+      sha256 "3a576be3d744de4a6c5ba691a608e8297ba50bf9d60bfda2d5dadae18159df18"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.0/hikae-x86_64-apple-darwin.tar.xz"
-      sha256 "6e90bb757a36c69c3d3c6285d8388683c01a736f1ddf0ed0cf4a06f9766868b9"
+      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.1/hikae-x86_64-apple-darwin.tar.xz"
+      sha256 "b0239b00f3518a7d6770a07cacb1c973f307eb29ec3720009e6c4c15928cbafd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.0/hikae-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "e349bf152edcb33f5078223dfe08d4a743ef1aa5d82a378363ba5a1444e0c3ea"
+      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.1/hikae-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "0471780239ebcf145282950c1941abaf4f95cc88379b5968cf209a1a3db3573f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.0/hikae-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e0ce8a23aac8f8babce313daa576a7516269a406aa9d966f95a79f8397534f37"
+      url "https://github.com/oni-works/hikae-releases/releases/download/v0.1.1/hikae-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "4ae25dd3d01a0adb3f6f880f66edfd2342cf68a9aec87216b1f6dcca9ebb28bd"
     end
   end
   license "UNLICENSED"
